@@ -9,7 +9,6 @@ const Router = require('koa-router')
 	,bodyparser = require('koa-bodyparser')
 	,log4js = require('koa-log4')
 	,json = require('koa-json')
-	,onerror = require('koa-onerror')
 	,path = require('path');
 
 log4js.configure('./log4js.json');
